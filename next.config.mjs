@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  reactStrictMode: false,
+  output: "standalone",
+  distDir: ".next",
+  trailingSlash: false,
+  experimental: {
+    appDir: false,
+    serverActions: false,
+  }
 };
 
 export default nextConfig;
