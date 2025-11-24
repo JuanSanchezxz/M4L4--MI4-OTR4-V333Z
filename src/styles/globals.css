@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ==== MUSIC SECTION ==== */
+
+.mUs1c-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.mUs1c-item {
+  text-align: center;
+}
+
+.mUs1c-item img {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mUs1c-item img:hover {
+  transform: scale(1.05);
+}
+
+.music-title {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.music-title {
+  margin-top: 12px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
