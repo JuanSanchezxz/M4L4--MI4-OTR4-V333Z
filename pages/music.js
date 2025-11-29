@@ -1,6 +1,6 @@
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function mUs1c() {
   const [loaded, setLoaded] = useState(false);
@@ -20,20 +20,19 @@ export default function mUs1c() {
         <nav className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
             <li><a href="/" className="hover:underline">h0m3</a></li>
-            <li><a href="/mUs1c" className="hover:underline">mUs1c</a></li>
-            <li><a href="/g4l3r1" className="hover:underline">g4l3r1</a></li>
+            <li><a href="/music" className="hover:underline">mUs1c</a></li>
+            <li><a href="/galery" className="hover:underline">g4l3r1</a></li>
           </ul>
         </nav>
  </header>
 
 <main className="container mx-auto px-4 py-20 flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold mb-24 tracking-wider">
+        <h1 className="text-4xl font-bold mb-10 tracking-wider">
           THERE IS NOT ENOUGH TIME
         </h1>
-
+        <a href="/why" className="text-4xl font-bold mb-10 tracking-wider">*</a>
         <div className="flex flex-col items-center space-y-12">
-          <a
-            href="/why"
+          <a            
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -53,7 +52,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-20">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -73,7 +71,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -93,7 +90,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -113,7 +109,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -133,7 +128,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -153,7 +147,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -173,7 +166,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -193,7 +185,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -213,7 +204,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -233,7 +223,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"
@@ -253,7 +242,6 @@ export default function mUs1c() {
 
         <div className="flex flex-col items-center space-y-12">
           <a
-            href="/why"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-transform duration-300 hover:scale-105"

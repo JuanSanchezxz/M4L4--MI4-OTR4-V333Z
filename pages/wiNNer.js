@@ -1,5 +1,4 @@
-"use client";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -27,14 +26,13 @@ export default function Winner() {
   return (
     <div className="min-h-screen bg-black text-white px-4 py-8">
       <Head>
-        <title>wiNNer</title>
+        <title>shhh</title>
       </Head>
 
       {/* Si NO tiene acceso aún → pantalla de contraseña */}
       {!access && (
         <div className="flex flex-col items-center justify-center h-screen text-center">
-          <h1 className="text-5xl font-bold mb-6">g4n4st3!!!</h1>
-          <p className="mb-4 opacity-80">contraseña???</p>
+          <h1 className="text-5xl font-bold mb-6">shhhhh</h1>
 
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
             <input
@@ -56,8 +54,8 @@ export default function Winner() {
       {/* Si tiene acceso → galería secreta */}
       {access && (
         <>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-16 text-center uppercase">
-            SECRET GALLERY
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-16 text-center ">
+            shhhhh
           </h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">

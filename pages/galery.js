@@ -1,6 +1,6 @@
-"use client";
+
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function G4l3r1() {
@@ -21,12 +21,15 @@ export default function G4l3r1() {
   return (
     
     <div className="min-h-screen bg-black text-white px-4 py-8">
+      <Head>
+        <title>g4l3r1</title>
+      </Head>
       <header className="py-8 px-4">
         <nav className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
             <li><a href="/" className="hover:underline">h0m3</a></li>
-            <li><a href="/mUs1c" className="hover:underline">mUs1c</a></li>
-            <li><a href="/g4l3r1" className="hover:underline">g4l3r1</a></li>
+            <li><a href="/music" className="hover:underline">mUs1c</a></li>
+            <li><a href="/galery" className="hover:underline">g4l3r1</a></li>
           </ul>
         </nav>
  </header>
