@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function mUs1c() {
+export default function MUs1c() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
