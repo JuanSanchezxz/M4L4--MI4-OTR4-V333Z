@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function G4l3r1() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,6 +18,8 @@ export default function G4l3r1() {
     "/GBZ6.JPG",
     "/GBZ2.JPG",
     "/GBZ7.JPG",
+    "/GBZ11.JPG",
+    "/GBZ10.JPG",
   ];
 
   return (
@@ -27,15 +31,15 @@ export default function G4l3r1() {
       <header className="py-8 px-4">
         <nav className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
-            <li><a href="/" className="hover:underline">h0m3</a></li>
-            <li><a href="/music" className="hover:underline">mUs1c</a></li>
-            <li><a href="/galery" className="hover:underline">g4l3r1</a></li>
+            <li><Link href="/" className="hover:underline">h0m3</Link></li>
+            <li><Link href="/music" className="hover:underline">mUs1c</Link></li>
+            <li><Link href="/galery" className="hover:underline">g4l3r1</Link></li>
           </ul>
         </nav>
  </header>
       {/* Título */}
       <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-16 text-center uppercase">
-        G4l3r1
+        it's yours
       </h1>
       <section className="hero text-center py-7">
           <p className="text-lg mb-8">because i think about YOU ALL THE TIME...</p>
@@ -59,7 +63,7 @@ export default function G4l3r1() {
 
             {/* Texto estilo Off-White */}
             <div className="absolute bottom-3 left-3 text-xs opacity-70 group-hover:opacity-100 tracking-widest">
-              <p>[PHOTO_{index + 1}]</p>
+              <p>[GABZ_{index + 1}]</p>
             </div>
           </div>
         ))}

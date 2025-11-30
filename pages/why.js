@@ -14,6 +14,9 @@ export default function wHy() {
         <p className="text-lg text-center max-w-2xl fade-in-delay">
           *
         </p>
+        <p className="text-lg text-center max-w-2xl fade-in-delay">
+          06/12/25
+        </p>
       </main>
     </>
   );

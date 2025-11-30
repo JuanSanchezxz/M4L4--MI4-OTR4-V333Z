@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Winner() {
   const [access, setAccess] = useState(false);
@@ -54,7 +56,7 @@ export default function Winner() {
       {/* Si tiene acceso → galería secreta */}
       {access && (
         <>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-16 text-center ">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-16 text-center">
             shhhhh
           </h1>
 
@@ -73,7 +75,7 @@ export default function Winner() {
                 />
 
                 <div className="absolute bottom-3 left-3 text-xs opacity-70 tracking-widest">
-                  <p>[SECRET_{index + 1}]</p>
+                  <p>[io_{index + 1}]</p>
                 </div>
               </div>
             ))}

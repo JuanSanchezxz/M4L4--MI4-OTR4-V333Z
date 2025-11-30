@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function mUs1c() {
   const [loaded, setLoaded] = useState(false);
@@ -19,18 +21,18 @@ export default function mUs1c() {
 <header className="py-8 px-4">
         <nav className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
-            <li><a href="/" className="hover:underline">h0m3</a></li>
-            <li><a href="/music" className="hover:underline">mUs1c</a></li>
-            <li><a href="/galery" className="hover:underline">g4l3r1</a></li>
+            <li><Link href="/" className="hover:underline">h0m3</Link></li>
+            <li><Link href="/music" className="hover:underline">mUs1c</Link></li>
+            <li><Link href="/galery" className="hover:underline">g4l3r1</Link></li>
           </ul>
         </nav>
  </header>
 
 <main className="container mx-auto px-4 py-20 flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold mb-10 tracking-wider">
-          THERE IS NOT ENOUGH TIME
+          I DON'T HAVE ENOUGH TIME
         </h1>
-        <a href="/why" className="text-4xl font-bold mb-10 tracking-wider">*</a>
+        <Link href="/why" className="text-4xl font-bold mb-10 tracking-wider">*</Link>
         <div className="flex flex-col items-center space-y-12">
           <a            
             target="_blank"
