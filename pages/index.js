@@ -37,7 +37,7 @@ export default function Home() {
 
         <div className="flex justify-center">
           <Link
-            href="https://open.spotify.com/playlist/2MljsaNlAEoXwbsjKuK8oj?si=0546f49832564085&pt=5062487de7b2a4155e67854511453d85"
+            href="https://open.spotify.com/playlist/2MljsaNlAEoXwbsjKuK8oj?si=83cbc74d20f645bf&pt=3da5624471122807f7d75ec2e7595948"
             target="_blank"
             rel="noopener noreferrer"
             className={`transition-all duration-1000 ease-[cubic-bezier(.19,1,.22,1)] ${
