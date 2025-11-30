@@ -30,7 +30,7 @@ export default function MUs1c() {
 
 <main className="container mx-auto px-4 py-20 flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold mb-10 tracking-wider">
-          I DON'T HAVE ENOUGH TIME
+          {"I DON'T HAVE ENOUGH TIME"}
         </h1>
         <Link href="/why" className="text-4xl font-bold mb-10 tracking-wider">*</Link>
         <div className="flex flex-col items-center space-y-12">
@@ -47,7 +47,7 @@ export default function MUs1c() {
               className="rounded-lg shadow-lg group-hover:opacity-90"
             />
             <p className="mt-4 text-xl tracking-wide opacity-80 group-hover:opacity-100 transition-opacity">
-              !. Entombed ("$/??/"="?)
+              "!. Entombed ("$/??/"="?)"
             </p>
           </a>
         </div>
