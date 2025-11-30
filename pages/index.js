@@ -22,9 +22,9 @@ export default function Home() {
       <header className="py-8 px-4">
         <nav className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
-            <li><a href="/" className="hover:underline">h0m3</a></li>
-            <li><a href="/music" className="hover:underline">mUs1c</a></li>
-            <li><a href="/galery" className="hover:underline">g4l3r1</a></li>
+            <li><Link href="/" className="hover:underline">h0m3</Link></li>
+            <li><Link href="/music" className="hover:underline">mUs1c</Link></li>
+            <li><Link href="/galery" className="hover:underline">g4l3r1</Link></li>
           </ul>
         </nav>
       </header>
@@ -32,12 +32,12 @@ export default function Home() {
       <main className="container mx-auto px-4">
         <section className="hero text-center py-10">
           <h1 className="text-5xl font-semibold mb-6">M4L4 MI4 OTR4 V333Z</h1>
-          <p className="text-lg mb-8">i'm juSt trying t0 teLl you h0w much I love YOU</p>
+          <p>{`i'm just trying to tell you how much I love "you"`}</p>
         </section>
 
         <div className="flex justify-center">
-          <a
-            href="https://open.spotify.com/playlist/2MljsaNlAEoXwbsjKuK8oj?si=637e492107144488&pt=935d2776d284a8fa1518b264f79a7f7e"
+          <Link
+            href="https://open.spotify.com/playlist/2MljsaNlAEoXwbsjKuK8oj?si=0546f49832564085&pt=5062487de7b2a4155e67854511453d85"
             target="_blank"
             rel="noopener noreferrer"
             className={`transition-all duration-1000 ease-[cubic-bezier(.19,1,.22,1)] ${
@@ -45,14 +45,14 @@ export default function Home() {
             } hover:opacity-90 hover:scale-[1.05] hover:-translate-y-[2px]`}
           >
             <Image
-              src="/iv.png"
+              src="/IV.png"
               alt="Portada"
               width={600}
               height={600}
               className="object-contain select-none"
               priority
             />
-          </a>
+          </Link>
         </div>
       </main>
 
